@@ -7,7 +7,7 @@ import { db } from "../../../fireBaseConfig";
 import CircularProgress from "@mui/joy/CircularProgress";
 import { Footer } from "../../layout/footer/Footer";
 import Swal from "sweetalert2";
-import "./itemDetail.css";
+import "./ItemDetail.css";
 
 const ItemDetailContainer = () => {
   const [item, setItem] = useState({});

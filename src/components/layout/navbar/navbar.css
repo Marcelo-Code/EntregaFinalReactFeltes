@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "cursiva";
+  src: url(../../../assets/fonts/Matsury.ttf);
+}
+
+.logoEmpresa {
+  font-family: "cursiva";
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  white-space: nowrap;
+  text-decoration: none;
+  color: whitesmoke;
+  text-shadow: 0 0 20px black;
+}
+
+.darkNavbar {
+  background: linear-gradient(
+    to bottom,
+    rgb(14, 15, 19) 0%,
+    rgb(14, 15, 19) 40%,
+    rgba(55, 58, 71, 0.7) 95%,
+    rgba(55, 58, 71, 0) 100%
+  );
+}
+
+.lightNavBar {
+  background-color: rgb(145, 197, 240);
+}
+
+.navBarList {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.lightNavBar,
+.darkNavbar {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 0 0;
+  height: auto;
+}
+
+table {
+  text-align: center;
+}

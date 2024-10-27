@@ -1,0 +1,25 @@
+.greeting {
+  text-align: center;
+  padding: 10px;
+  text-shadow: 0 0 20px white;
+  background-image: linear-gradient(
+    to bottom,
+    #4683b4 0%,
+    #4683b484 70%,
+    #4683b400 100%
+  );
+}
+
+.itemList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.muiCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  color: black;
+}

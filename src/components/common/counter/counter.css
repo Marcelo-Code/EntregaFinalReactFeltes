@@ -1,0 +1,26 @@
+.cardCounter {
+  display: flex;
+  justify-content: center;
+}
+
+.numberContainer {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 40%;
+  padding: 0;
+  width: 80%;
+  height: auto;
+  align-items: center;
+}
+
+.number {
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.plusMinusBtn {
+  border-radius: 50%;
+}

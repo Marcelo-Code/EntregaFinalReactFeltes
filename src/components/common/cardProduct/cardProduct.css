@@ -1,0 +1,19 @@
+.productCard {
+  margin: 30px auto;
+  width: 30vw;
+  min-width: 300px;
+  text-align: center;
+  box-shadow: 0 0 20px black;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: white;
+  padding: 30px;
+}
+
+.productCard img {
+  width: 100%;
+}
+
+.productCard button {
+  margin: 20px;
+}

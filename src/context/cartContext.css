@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "cursiva";
+  src: url(../../../assets/fonts/Matsury.ttf);
+}
+
+.confirmMessage {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.secondaryMessage {
+  font-family: "cursiva";
+  font-size: 50px;
+}

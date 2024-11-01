@@ -23,6 +23,7 @@ const ItemList = ({ items }) => {
               maxWidth: 300,
               boxShadow: "0 0 10px black",
               marginTop: "25px",
+              filter: item.stock === 0 ? "grayscale(100%)" : "none",
             }}
           >
             <CardContent>
@@ -67,9 +68,13 @@ const ItemList = ({ items }) => {
                 alignItems: "center",
               }}
             >
-              <Link to={`/productDetail/${item.id}`}>
-                <Button size="small">Ver más detalles</Button>
-              </Link>
+              {item.stock > 0 ? (
+                <Link to={`/productDetail/${item.id}`}>
+                  <Button size="small">Ver más detalles</Button>
+                </Link>
+              ) : (
+                <Button size="big">Producto sin stock</Button>
+              )}
             </CardActions>
           </Card>
         );
